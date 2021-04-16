@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/express/express",
+    "pages/note/note"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#07c160",
+    "list": [
+      { 
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/express/express",
+        "iconPath": "static/icon/car.png",
+        "selectedIconPath": "static/icon/car-active.png",
+        "text": "物流"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "iconPath": "static/icon/book.png",
+        "selectedIconPath": "static/icon/book-active.png",
+        "text": "随笔"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

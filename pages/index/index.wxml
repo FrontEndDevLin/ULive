@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view>
+  <view class="top">
+    <view>
+      <text>广州</text>
+    </view>
+    <view>
+      <view>23°</view>
+      <view>多云 | 西北风0级</view>
+      <view>雷阵雨转大到暴雨</view>
+    </view>
+  </view>
+</view>
